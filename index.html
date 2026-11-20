@@ -1,1 +1,57 @@
 
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EUR/USD AI Signal Bot</title>
+<style>
+body {
+  background: #101827;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+.card {
+  background: #1e293b;
+  padding: 22px;
+  border-radius: 15px;
+  margin-top: 25px;
+}
+.price {
+  font-size: 32px;
+  color: #38bdf8;
+}
+button {
+  padding: 15px 30px;
+  background: #16a34a;
+  color: white;
+  border: 0;
+  border-radius: 10px;
+  font-size: 17px;
+}
+</style>
+</head>
+<body>
+
+<h2>🤖 EUR/USD AI Signal Bot</h2>
+
+<div class="card">
+  <h3>Currency Pair</h3>
+  <div class="price">EUR/USD</div>
+  <p>Timeframe: 1 Minute</p>
+  <p id="signal">সিগন্যালের জন্য অপেক্ষা করুন</p>
+  <button onclick="signal()">Generate Signal</button>
+</div>
+
+<script>
+function signal() {
+  document.getElementById("signal").innerText =
+  "ডেমো: লাইভ ডেটা সংযুক্ত হয়নি।";
+}
+</script>
+
+</body>
+</html>
+
